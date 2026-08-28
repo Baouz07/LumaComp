@@ -1,0 +1,74 @@
+# 编译输出
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+
+# 构建目录
+build/
+dist/
+out/
+bin/
+obj/
+
+# 日志文件
+*.log
+debug.log
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# 包管理
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# 测试和调试
+testhost.exe
+vst3test.exe
+testhost_out.txt
+
+# 项目特定
+hello.exe
+hello.cpp
+
+# CMake缓存
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# 编译日志
+build.log
+configure.log
+metertest_build.log
+
+# 第三方库（需自行下载）
+third_party/
